@@ -1,0 +1,77 @@
+body 
+{
+	background-image: url('g8.jpg');
+	color: #ccccc;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;	
+}
+
+h1 
+{
+	font-size: 1em;
+	font-family: Lucida Calligraphy,Arial, Helvetica, sans-serif;
+}
+
+p 
+{
+	margin-bottom: 10px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.strong 
+{
+	font-weight: bold;
+}
+
+.h8 { text-decoration:none; color:#000000; }
+.h8:hover { background: url(animated.gif) repeat-x bottom left }
+
+.uppercase { text-transform: uppercase; }
+
+.login 
+{
+	margin: 50px auto;
+	width: 300px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.log
+{
+	margin: 50px auto;
+	width: 300px;
+}
+
+input[type=text], input[type=password]
+{	
+	background-color: #FEFCA4;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 280px;
+}
+
+input[type=submit] 
+{
+	background-color: #dd4b39;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300px;
+}
+a 
+{
+	color: #ffffff;
+	font-size: 10px;
+}

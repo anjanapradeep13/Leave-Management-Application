@@ -1,0 +1,109 @@
+
+body 
+{
+	background-image: url('g8.jpg');
+	color: #ccccc;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+h1 
+{ 
+	font-size: 1em; 
+}
+
+p 
+{
+	margin-bottom: 10px;
+}
+
+.strong 
+{
+	font-weight: bold;
+}
+
+.uppercase { text-transform: uppercase; }
+
+.login 
+{
+	margin: 50px auto;
+	width: 300px;
+}
+
+.alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.error {
+    background:#ffecec url('error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning {
+    background:#fff8c4 url('warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice {
+    background:#e3f7fc url('notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+.h3:hover { background-color:#99CCFF; }
+
+.h8 { text-decoration:none; color:#000000; }
+.h8:hover { background: url(animated.gif) repeat-x bottom left }
+
+input[type=submit] 
+{
+	background-color: #99CCFF;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300px;
+}
+
+fieldset
+{
+border: 1px solid #000099;
+padding: 2px 6px;
+margin: auto;
+height: 390px;
+width: 400px;
+}
